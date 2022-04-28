@@ -1,12 +1,35 @@
+@media screen and (max-width:992px){
+    h1{
+        font-size:25px;
+        color: brown;
+    }
+}
+@media screen and (max-width:768px){
+    h1{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:576px){
+    h1{
+        font-size:15px;
+    }
+}
+@media screen and (max-width:372px){
+    h1{
+        font-size:10px;
+    }
+}
 html {
     margin: 0;
     padding: 0;
+    height: 1000px;
 }
 
 
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 100%;
+    color: black;
 }
 
 #nav {
@@ -73,8 +96,4 @@ body {
     visibility: visible;
     opacity: 1;
     display: block;
-}
-img{
-    width: 750px;
-    height: 750px;
 }
